@@ -1,8 +1,8 @@
-package com.example.commands
+package com.github.jonildev.sdfd.commands
 
-import com.example.ExampleMod
-import com.example.commands.SimpleCommand.ProcessCommandRunnable
-import com.example.utils.ChatUtils
+import com.github.jonildev.sdfd.ExampleMod
+import com.github.jonildev.sdfd.commands.SimpleCommand.ProcessCommandRunnable
+import com.github.jonildev.sdfd.utils.ChatUtils
 import net.minecraft.command.ICommandSender
 import net.minecraft.util.BlockPos
 import net.minecraftforge.client.ClientCommandHandler

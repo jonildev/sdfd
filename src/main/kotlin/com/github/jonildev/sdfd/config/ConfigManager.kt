@@ -1,7 +1,7 @@
-package com.example.config
+package com.github.jonildev.sdfd.config
 
-import com.example.config.categories.ExampleModConfig
-import com.example.errors.ConfigError
+import com.github.jonildev.sdfd.config.categories.ExampleModConfig
+import com.github.jonildev.sdfd.errors.ConfigError
 import com.google.gson.GsonBuilder
 import com.google.gson.TypeAdapter
 import com.google.gson.stream.JsonReader
@@ -48,7 +48,7 @@ class ConfigManager {
             .create()
     }
 
-    private var configDirectory = File("config/examplemod")
+    private var configDirectory = File("config/sdfd")
     private var configFile: File
     var config: ExampleModConfig? = null
     private var lastSaveTime = 0L

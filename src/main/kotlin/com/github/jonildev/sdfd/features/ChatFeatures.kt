@@ -1,7 +1,7 @@
-package com.example.features
+package com.github.jonildev.sdfd.features
 
-import com.example.ExampleMod
-import com.example.utils.ChatUtils
+import com.github.jonildev.sdfd.ExampleMod
+import com.github.jonildev.sdfd.utils.ChatUtils
 import net.minecraftforge.client.event.ClientChatReceivedEvent
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 
